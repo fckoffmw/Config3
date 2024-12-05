@@ -1,0 +1,15 @@
+/+
+    Конфигурация сервера базы данных
++/
+
+:: адрес
+let localhost = 'https://localhost:8080/'
+
+:: порт для подключения
+let dbPort = 5432
+let password = 'sha256afjakfj0391409831dakldja'
+let adminLogin = 'admin@db'
+
+:: пользователи базы
+let usersIDs = array( 332142, 835342, 532342 )
+

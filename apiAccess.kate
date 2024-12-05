@@ -1,0 +1,15 @@
+/+
+    конфигурация доступа к апи приложения
++/
+
+:: имя пользователя для доступа к апи
+let userName = 'user@123'
+
+:: его секретный ключ
+let apiKey = 'adfjpJFDIjapfjS_3841cNJFD981n_adsh'
+
+:: уровни доступа к апи этого пользователя
+let accessLevels = array( 0, 5, 10, 15 )
+
+:: конечная точка апи
+let apiPoint = 'http://localhost/:8000/api'
